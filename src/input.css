@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parallelogram-img {
+    /* Tạo hình bình hành bằng tọa độ các góc (theo phần trăm) */
+    clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 5% 100%);
+}
